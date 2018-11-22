@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    
+  form(action='saveData' method='get')
+   .row
+    label Fisrt Name
+    .input-field.col.s6
+     input#first_name.validate(type='text', name='firstname')
+   .row
+    label Last Name
+    .input-field.col.s6
+     input#first_name.validate(type='text', name='lastname')
+   .row
+    label Email
+    .input-field.col.s6
+     input#first_name.validate(type='text', name='email')
+   .row
+    label Age
+    .input-field.col.s6
+     input#first_name.validate(type='text', name='age')     
+   .row
+    button.btn(type='submit') Go

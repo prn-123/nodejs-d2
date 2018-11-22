@@ -1,0 +1,17 @@
+extends layout
+
+block content
+
+	each val in data
+		.row
+			.col-2
+				.card.cyan 
+					.card-content
+						p
+							h1 #{val.superhero}
+							.card
+								ul
+									li 
+										h2   Name : #{val.alter_ego}
+									li
+										h2  Publisher : #{val.publisher}

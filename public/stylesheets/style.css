@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+h2 {
+	font-style: oblique;
+	
+}
+h1{
+	font-weight: bold;
+	font-style: oblique;
+}
+ul {
+    font-family: "Times New Roman", Times, serif;
+    list-style-type: square;
+}
+li{
+	list-style-type: square;
+}
+p{
+	border-color: coral;
+	border-collapse: separate;
+    border-spacing: 15px;
+}
